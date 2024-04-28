@@ -1,4 +1,4 @@
-using CUDA, CUDA.CUSPARSE
+using .CUDA, .CUDA.CUSPARSE
 
 include("iterations/solvers/gpu/K2KrylovLDLGPU.jl")
 
